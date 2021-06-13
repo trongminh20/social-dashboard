@@ -1,0 +1,44 @@
+body {
+    background-color: #1D2029;
+    color: white;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-items {
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#header {
+    justify-content: space-between;
+}
+
+#chanels>#boxes-row {
+    column-gap: 10px;
+}
+
+.boxes {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #252B43;
+}
+
+#facebook,
+#twitter,
+#instagram,
+#spotify {
+    border-top: 3px solid blue;
+}
+
+.flex-row {
+    column-gap: 10px;
+}
+
+table tr td {
+    text-align: center;
+}
